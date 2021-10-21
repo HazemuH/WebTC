@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--LINK CSS-->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <title>LATIHAN WEB</title>
+</head>
+<body>
+    <header>
+        <div class="video-container">
+            <video autoplay muted loop>
+                <source src="/asset/video/background.mp4" type="video/mp4" />
+            </video>
+            <div class="content__overlay">
+                <nav>
+                    <div class="header__logo">
+                        <img src="/asset/image/logo.png" alt="tax center">
+                    </div> 
+        
+                    <div class="header__menu">
+                        <ul>
+                            <li class="parent display"><a href="/">Inklusi Kesadaran Pajak</a>
+                                <ul class="child">
+                                    <li><a href="/">Rencana Pembelajaran Semester</a></li>
+                                    <li><a href="/">Video Inklusi Kesadaran Pajak</a></li>
+                                    <li class="parent inside"><a href="/">Materi</a>
+                                        <ul class="child">
+                                            <li><a href="/">Modul</a></li>
+                                            <li><a href="/">eBook</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="parent display"><a href="/">Kursus</a>
+                                <ul class="child">
+                                    <li><a href="/">Brevet Pajak Terpadu</a></li>
+                                    <li><a href="/">Custom Broker</a></li>
+                                    <li><a href="/">Transfer Pricing</a></li>
+                                    <li><a href="/">Workshop</a></li>
+                                </ul>
+                            </li>
+                            <li class="parent display"><a href="/">Relawan Pajak</a>
+                                <ul class="child">
+                                    <li><a href="/">Pendaftaran</a></li>
+                                    <li><a href="/">Tes Levelling</a></li>
+                                    <li><a href="/">Komunitas Relawan Pajak</a></li>
+                                    <li><a href="/">Relawan Pajak Beraksi</a></li>
+                                    <li class="parent inside"><a href="/">Agenda</a>
+                                        <ul class="child">
+                                            <li><a href="/">Kuliah Umum</a></li>
+                                            <li><a href="/">Seminar</a></li>
+                                            <li><a href="/">Pengabdian Masyarakat</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="parent display"><a href="/">Berita Pajak</a>
+                                <ul class="child">
+                                    <li><a href="/">Peraturan Perpajakan</a></li>
+                                </ul>
+                            </li>
+                            <li class="parent display"><a href="/">Galeri</a>
+                            <li class="parent display"><a href="/">Agenda</a>
+                                <ul class="child">
+                                    <li><a href="/">Photo</a></li>
+                                    <li><a href="/">Video</a></li>
+                                    <li><a href="/">Lomba Poster dan HUT TC ke 4</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+        
+                    <div class="header__search">
+                        <form action="#" method="get">
+                            <table class="element_header">
+                                <tr>
+                                    <td>
+                                        <a href="#"><i class="fas fa-search"></i></a>
+                                    </td>
+                                    <td>
+                                        <input type="text" placeholder="Cari Disini.." class="search">
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                    </div>
+                </nav>
+                <div class="header__content">
+                    <p id="set_date"></p>
+                    <span></span>
+                    <h1>Selamat Datang Di <br> Tax Center Universitas Gunadarma</h1>
+                    <button>Tentang Kami</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="profile" data-scroll-section>
+        <div class="container">
+            <h2 class="title">Profile</h2>
+            <div class="profile__content">
+                <img class="profile_logo" src="logo.png" alt="Tax Center">
+                <div class="profile__desc">
+                    <p>Tax Center Universitas Gunadarma merupakan lembaga di dalam Universitas Gunadarma yang berfungsi sebagai pusat pengkajian, penelitian, pelatihan dan sosialisasi di lingkungan Universitas Gunadarma di bawah naungan Kantor Wilayah DJP Jawa Barat III dan mulai didirikan pad tahun 2016</p>
+                    <br>
+                    <p>Tax Center memiliki program kerja yang diantaranya adalah Relawan Pajak, Kursus Brevet Pajak Terpadu, Pembinaan UMKM, Workshop Pajak, serta inklusi Kesadaran Pajak dalam lingkup Universitas Gunadarma</p>
+                </div>
+            </div>
+            <div class="profile__dropdown">
+                <div class="dropdown__visi">
+                    <div class="selectbox selectbox--unselect" data-option="">
+                        <div class="selectbox__displayWord">
+                            Visi
+                        </div>
+                        <div class="option-container">
+                            <div class="option-container__option">
+                                <input type="radio" class="option__radio" id="1100" name="category">
+                                <label class="option__label">Sebagai pusat informasi perpajakan yang membantu masyarakat kampus dalam pengembangan pengetahuan dan pendidikan perpajakan.</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown__misi">
+                        <div class="selectbox selectbox--unselect" data-option="">
+                        <div class="selectbox__displayWord">
+                            Misi
+                        </div>
+                        <div class="option-container">
+                            <div class="option-container__option">
+                                <input type="radio" class="option__radio" name="category">
+                                <label class="option__label">Sebagai pusat informasi perpajakan yang membantu masyarakat kampus dalam pengembangan pengetahuan dan pendidikan perpajakan.</label>
+                            </div>
+                            <div class="option-container__option">
+                                <input type="radio" class="option__radio" name="category">
+                                <label class="option__label">Membantu Perguruan Tinggi berikut lembaga – lembaga yang ada dalam melaksanakan pemenuhan kewajibannya di bidang perpajakan.</label>
+                            </div>
+                            <div class="option-container__option">
+                                <input type="radio" class="option__radio" name="category">
+                                <label class="option__label">Membantu pejabat dan karyawan di lingkungan Perguruan Tinggi dalam pemenuhan kewajibannya di bidang perpajakan</label>
+                            </div>
+                            <div class="option-container__option">
+                                <input type="radio" class="option__radio" name="category">
+                                <label class="option__label">Membantu stakeholder (Perguruan Tinggi) untuk memperoleh informasi perpajakan dan pemenuhan kewajibannya di bidang perpajakan.</label>
+                            </div>
+                            <div class="option-container__option">
+                                <input type="radio" class="option__radio" name="category">
+                                <label class="option__label">Turut membantu sosialisasi program pemerintah di sektor perpajakan</label>
+                            </div>
+                            <div class="option-container__option">
+                                <input type="radio" class="option__radio" name="category">
+                                <label class="option__label">Menyelenggarakan seminar, penelitian, sertifikasi dan pendidikan di bidang perpajakan</label>
+                            </div>
+                            <div class="option-container__option">
+                                <input type="radio" class="option__radio" name="category">
+                                <label class="option__label">Menjadi model Tax Center untuk Perguruan – Perguruan Tinggi.</label>
+                            </div>
+                    
+                        </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--akhir dari sesi profile-->
+
+    <!--awal dari section foto-->
+    <section class="photo__span" data-scroll-section>
+
+    </section>
+    <section class="slider__photo" data-scroll-section>
+        <div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": true}'>
+            <div class="carousel-cell"></div>
+            <div class="carousel-cell"></div>
+            <div class="carousel-cell"></div>
+            <div class="carousel-cell"></div>
+            <div class="carousel-cell"></div>
+        </div>
+    </section>
+
+    <!--akhir dari sesi foto-->
+
+    <!--awal dari section kegiatan-->
+
+    <section class="kegiatan__section">
+        <div class="kegiatan_header">
+            <div class="blank"></div>
+            <div class="kegiatan_title"><h1>Kegiatan</h1></div>
+            <div class="kegiatan_expand"><a href="#">Selengkapnya <i class="fas fa-arrow-right"></i></a></div>
+        </div>
+        <div class="kegiatan_content">
+            <div class="row">
+              <div class="card">
+                <div class="card-image">
+                </div>
+                <div class="card-title">
+                    <h2>Relawan Pajak</h2>
+                </div>
+                <div class="card-body">
+                  <p>
+                    Kegiatan yang diselenggarakan oleh Tax Center Unviersitas Gunaadarma untuk mahasiswa berperan aktif secara sukarela dalam kegiatan edukasi pajak.
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-image">
+                </div>
+                <div class="card-title">
+                    <h2>Kursus Brevet Pajak Terpadu</h2>
+                </div>
+                <div class="card-body">
+                  <p>
+                    Kursus ini diselenggarakan untuk mengedukasi mahasiswa Universitas Gunadarma dalam bidang perpajakan di Indonesia.
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-image">
+                </div>
+                <div class="card-title">
+                    <h2>Inklusi Pajak</h2>
+                </div>
+                <div class="card-body">
+                  <p>
+                    Bentuk partisipasi Universitas Gunadarma dalam mewujudkan program pemerintah dengan mengadakan penambahan materi pada Mata Kuliah Wajib Umum (MKWU) yang memuat Inklusi Kesadaran Pajak dengan melibatkan berbagai pihak dalam bekerja sama, yaitu akademisi, praktisi, dan Direktorak Jenderal Pajak
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-image">
+                </div>
+                <div class="card-title">
+                    <h2>Pembinaan UMKM</h2>
+                </div>
+                <div class="card-body">
+                  <p>
+                    Kegiatan yang diselenggarakan oleh Tax Center Universitas Gunadarma dengan tujuan untuk membantu para pelaku UMKM dalam mempromosikan, mengedukasi, serta membina untuk meningkatkan kesadaran pajak.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <!--akhir dari sesion kegiatan-->
+
+    <!--awal dari sesion berita-->
+
+    <section class="berita_section">
+        <div class="berita_header">
+            <div class="blank"></div>
+            <div class="berita_title"><h1>Berita Terbaru</h1></div>
+            <div class="berita_expand"><a href="#">Selengkapnya <i class="fas fa-arrow-right"></i></a></div>
+        </div>
+        <div class="berita_container">
+            <div class="news-row">
+              <div class="news">
+                <div class="news-body">
+                    <div class="news-desc">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet fames suspendisse ornare arcu arcu, scelerisque diam nec. Pretium id risus, sit scelerisque odio viverra. Vitae, amet, volutpat, tincidunt est fusce sit id molestie. Elementum orci malesuada odio nulla ut enim.
+                        </p>
+                    </div>
+                    <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+              <div class="news">
+                <div class="news-body">
+                    <div class="news-desc">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet fames suspendisse ornare arcu arcu, scelerisque diam nec. Pretium id risus, sit scelerisque odio viverra. Vitae, amet, volutpat, tincidunt est fusce sit id molestie. Elementum orci malesuada odio nulla ut enim.
+                        </p>
+                    </div>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+              </div>
+              <div class="news">
+                <div class="news-body">
+                    <div class="news-desc">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet fames suspendisse ornare arcu arcu, scelerisque diam nec. Pretium id risus, sit scelerisque odio viverra. Vitae, amet, volutpat, tincidunt est fusce sit id molestie. Elementum orci malesuada odio nulla ut enim.
+                        </p>
+                    </div>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+              <div class="news">
+                <div class="news-body">
+                    <div class="news-desc">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet fames suspendisse ornare arcu arcu, scelerisque diam nec. Pretium id risus, sit scelerisque odio viverra. Vitae, amet, volutpat, tincidunt est fusce sit id molestie. Elementum orci malesuada odio nulla ut enim.
+                        </p>
+                    </div>
+                    <a href="#" class="btn">Read more</a>
+                    </div>
+               </div>
+            </div>
+          </div>
+    </section>
+
+    <!--akhir dari sesion berita-->
+
+    <!--awal dari sesion video-->
+    <section class="video_section">
+        <iframe src="https://www.youtube.com/embed/dElqf3Qx-wI" frameborder="0" allowfullscreen></iframe>
+    </section>
+    <!--akhir dari sesion video-->
+
+    <!--awal dari sesion informasi-->
+    <section class="informasi_section">
+        <div class="lokasi">
+            <h3>Lokasi</h3>
+            <iframe class="googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.155148170677!2d106.8610141143117!3d-6.3739625641223565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ed45cc22896d%3A0x6b2410d3413e7e19!2skampus%20gunadarma%20f4!5e0!3m2!1sen!2sid!4v1634752992405!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <p>
+                Kampus D, Universitas Gunadarma
+                Jl. Margonda Raya No. 100, Depok. Jawa Barat, Indonesia
+                <br>
+                <br>
+                Kampus F4 Universitas Gunadarma
+                Jl. Raya Jakarta-Bogor No.20, Cisalak Ps., Kec. Cimanggis, Depok, 16416, Lantai 6
+
+            </p>
+        </div>
+        <div class="contact">
+            <h3>Hubungi Kami</h3>
+
+            <form action="">
+
+                <div class="form-group">
+                    <label for="name">Nama</label>
+                    <input type="text" id="name" name="name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                </div>
+
+                <div class="form-group">
+                    <label for="pesan">Isi Pesan</label>
+                    <textarea name="pesan" id="pesan" rows="5" style="resize: vertical;"></textarea>
+                </div>  
+
+                <button class="button-contact" type="submit">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+    <!--akhir dari sesion informasi-->
+
+    <!--awal dari sesion footer-->
+    <section class="footer">
+        <span class="copyright">Copyright</span>
+        <span class="social-media">
+            <a href=""><i class="fas fa-envelope"></i> taxcenter.ug@gmail.com</a>
+            <a href=""><i class="fas fa-phone"></i>  021-7888-111-2 ext : 110</a>
+            <a href=""><i class="fab fa-instagram"></i> taxcenter.ug</a>
+            <a href=""><i class="fab fa-youtube"></i> Tax Center Universitas Gunadarma</a>
+        </span>
+    </section>
+    <!--akhir dari sesion footer-->
+
+
+    <!--script javascript-->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://kit.fontawesome.com/63f41dc888.js" crossorigin="anonymous"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>
